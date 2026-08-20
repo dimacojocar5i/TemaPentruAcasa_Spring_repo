@@ -10,17 +10,17 @@ public class CountryController {
         return "Bine Ati Venit!";
     }
 
-    @GetMapping("/moldova")
+    @GetMapping("/showMoldova")
     public String moldova() {
         return "Capitala este Chisinau.";
     }
 
-    @GetMapping("/france")
+    @GetMapping("/showFrance")
     public String france () {
         return "Capitala este Paris.";
     }
 
-    @GetMapping("/germany")
+    @GetMapping("/showGermany")
     public String germany() {
         return "Capitala este Berlin";
     }
